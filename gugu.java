@@ -10,6 +10,7 @@ public class gugu {
         Scanner scan = new Scanner(System.in);
         System.out.println("원하시는 구구단의 앞자리를 입력해주세요\n :");
         ap = scan.nextInt();
+        scan.close();
 
         for(dui = 1; dui < 11; dui++) {
             
@@ -18,7 +19,7 @@ public class gugu {
         }
 
 
-        scan.close();
+        
 
     }
     
