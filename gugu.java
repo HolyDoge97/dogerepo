@@ -19,7 +19,7 @@ public class gugu {
         }
 
 
-        
+        System.out.println("구구단 출력 완료.");
 
     }
     
