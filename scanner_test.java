@@ -19,7 +19,7 @@ public class scanner_test {
         name = scan.next();        // 문자열형으로 입력 받음
         age = scan.nextInt();      // 정수형으로 입력 받음
 
-        scan.close()  // scanner 종료. close하지 않으면 Resource Leak라며 경고 나옴
+        scan.close();  // scanner 종료. close하지 않으면 Resource Leak라며 경고 나옴
 
         System.out.printf("%s은 %d세이고, 적정체온은 %f도 이다.", name, age, fever);
     }
