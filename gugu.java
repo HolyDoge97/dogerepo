@@ -19,7 +19,7 @@ public class gugu {
         }
 
 
-        
+        System.out.println("구구단 계산이 종료되었습니다. \n 감사합니다.\n");
 
     }
     
